@@ -40,7 +40,7 @@ const BUILD_DIR = path.resolve(__dirname, './dist');
 const {
   mode = 'development',
   devserverPort = 9000,
-  supersetPort = 8088,
+  supersetPort = 18088,
   measure = false,
   analyzeBundle = false,
 } = parsedArgs;
@@ -272,6 +272,8 @@ const config = {
     inline: true,
     stats: { colors: true },
     overlay: true,
+    host: '0.0.0.0',
+    disableHostCheck: true,
     port: devserverPort,
     // Only serves bundled files from webpack-dev-server
     // and proxy everything else to Superset backend

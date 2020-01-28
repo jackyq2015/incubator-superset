@@ -1,0 +1,548 @@
+2019-12-25 13:38:40,644:INFO:root:logging was configured successfully
+2019-12-25 13:38:40,797:INFO:root:Configured event logger of type <class 'superset.utils.log.DBEventLogger'>
+ * Serving Flask app "superset.app:create_app()" (lazy loading)
+ * Environment: development
+ * Debug mode: on
+2019-12-25 13:38:41,970:INFO:werkzeug: * Running on http://0.0.0.0:8088/ (Press CTRL+C to quit)
+2019-12-25 13:38:41,971:INFO:werkzeug: * Restarting with stat
+2019-12-25 13:38:43,072:INFO:root:logging was configured successfully
+2019-12-25 13:38:43,221:INFO:root:Configured event logger of type <class 'superset.utils.log.DBEventLogger'>
+2019-12-25 13:38:44,361:WARNING:werkzeug: * Debugger is active!
+2019-12-25 13:38:44,370:INFO:werkzeug: * Debugger PIN: 231-017-753
+2019-12-25 13:40:15,130:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:40:15] "GET /login/ HTTP/1.1" 302 -
+2019-12-25 13:40:15,277:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:40:15] "GET / HTTP/1.1" 302 -
+2019-12-25 13:40:15,595:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:40:15] "GET /superset/welcome HTTP/1.1" 200 -
+2019-12-25 13:40:15,760:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:40:15] "GET /static/assets/dist/welcome.ea8f86b4ed46b4199df0.entry.css HTTP/1.1" 200 -
+2019-12-25 13:40:15,769:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:40:15] "GET /static/appbuilder/css/flags/flags16.css HTTP/1.1" 200 -
+2019-12-25 13:40:15,906:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:40:15] "GET /static/assets/images/superset-logo@2x.png HTTP/1.1" 200 -
+2019-12-25 13:40:15,907:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:40:15] "GET /static/appbuilder/css/font-awesome.min.css HTTP/1.1" 200 -
+2019-12-25 13:40:16,215:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:40:16] "GET /static/assets/dist/welcome.ea8f86b4ed46b4199df0.entry.js HTTP/1.1" 200 -
+2019-12-25 13:40:16,227:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:40:16] "GET /static/appbuilder/img/flags/flags16.png HTTP/1.1" 200 -
+2019-12-25 13:40:16,236:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:40:16] "GET /static/assets/dist/vendors-major.69ff489520d9195bc4d7.chunk.js HTTP/1.1" 200 -
+2019-12-25 13:40:16,518:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:40:16] "GET /static/appbuilder/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 -
+2019-12-25 13:40:17,155:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:40:17] "GET /superset/fave_dashboards/1/ HTTP/1.1" 200 -
+2019-12-25 13:40:17,169:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:40:17] "GET /superset/fave_slices/1/ HTTP/1.1" 200 -
+2019-12-25 13:40:17,176:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:40:17] "GET /superset/recent_activity/1/?limit=50 HTTP/1.1" 200 -
+2019-12-25 13:40:17,177:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:40:17] "GET /dashboardasync/api/read?_oc_DashboardModelViewAsync=changed_on&_od_DashboardModelViewAsync=desc HTTP/1.1" 200 -
+/storj-storage/src/incubator-superset/venv/lib/python3.6/site-packages/flask_appbuilder/fields.py:182: UserWarning: allow_blank=True does not do anything for QuerySelectMultipleField.
+  "allow_blank=True does not do anything for QuerySelectMultipleField."
+2019-12-25 13:40:20,998:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:40:20] "GET /chart/list/ HTTP/1.1" 200 -
+2019-12-25 13:40:21,731:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:40:21] "GET /superset/csrf_token/ HTTP/1.1" 200 -
+2019-12-25 13:40:23,030:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:40:23] "GET /chart/add HTTP/1.1" 200 -
+2019-12-25 13:40:23,300:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:40:23] "GET /static/assets/dist/addSlice.0af84637b9dd48d26b44.entry.js HTTP/1.1" 200 -
+2019-12-25 13:40:53,352:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:40:53] "GET /databaseview/list/ HTTP/1.1" 200 -
+2019-12-25 13:40:54,106:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:40:54] "GET /superset/csrf_token/ HTTP/1.1" 200 -
+2019-12-25 13:40:57,827:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:40:57] "GET /databaseview/edit/3 HTTP/1.1" 200 -
+2019-12-25 13:40:59,429:INFO:root:Database.get_sqla_engine(). Masked URL: mysql://superset:XXXXXXXXXX@172.17.0.2/shopify
+2019-12-25 13:40:59,430:ERROR:root:No module named 'MySQLdb'
+Traceback (most recent call last):
+  File "/storj-storage/src/incubator-superset/venv/lib/python3.6/site-packages/superset/views/core.py", line 1702, in testconn
+    engine = database.get_sqla_engine(user_name=username)
+  File "/storj-storage/src/incubator-superset/venv/lib/python3.6/site-packages/superset/utils/core.py", line 131, in __call__
+    value = self.func(*args, **kwargs)
+  File "/storj-storage/src/incubator-superset/venv/lib/python3.6/site-packages/superset/models/core.py", line 911, in get_sqla_engine
+    return create_engine(url, **params)
+  File "/storj-storage/src/incubator-superset/venv/lib/python3.6/site-packages/sqlalchemy/engine/__init__.py", line 479, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "/storj-storage/src/incubator-superset/venv/lib/python3.6/site-packages/sqlalchemy/engine/strategies.py", line 87, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "/storj-storage/src/incubator-superset/venv/lib/python3.6/site-packages/sqlalchemy/dialects/mysql/mysqldb.py", line 118, in dbapi
+    return __import__("MySQLdb")
+ModuleNotFoundError: No module named 'MySQLdb'
+2019-12-25 13:40:59,432:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:40:59] "POST /superset/testconn HTTP/1.1" 500 -
+2019-12-25 13:42:41,573:INFO:root:Database.get_sqla_engine(). Masked URL: mysql://superset:XXXXXXXXXX@172.17.0.2/shopify
+2019-12-25 13:42:41,623:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:42:41] "POST /superset/testconn HTTP/1.1" 200 -
+2019-12-25 13:42:53,237:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:42:53] "GET /static/appbuilder/css/bootstrap.min.css.map HTTP/1.1" 404 -
+2019-12-25 13:49:28,506:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:49:28] "GET /databaseview/edit/3 HTTP/1.1" 200 -
+2019-12-25 13:49:29,524:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:49:29] "GET /static/assets/images/favicon.png HTTP/1.1" 200 -
+2019-12-25 13:49:31,095:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:49:31] "GET /chart/list/ HTTP/1.1" 200 -
+2019-12-25 13:49:31,726:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:49:31] "GET /superset/csrf_token/ HTTP/1.1" 200 -
+2019-12-25 13:49:33,434:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:49:33] "GET /chart/add HTTP/1.1" 200 -
+2019-12-25 13:49:54,441:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:49:54] "GET /chart/add HTTP/1.1" 302 -
+2019-12-25 13:49:54,610:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:49:54] "GET /login/?next=http%3A%2F%2Fibm-node5%3A9000%2Fchart%2Fadd HTTP/1.1" 200 -
+2019-12-25 13:49:54,815:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:49:54] "GET /static/assets/dist/theme.84d769271d648cf6e020.entry.js HTTP/1.1" 200 -
+2019-12-25 13:49:54,821:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:49:54] "GET /static/assets/dist/theme.84d769271d648cf6e020.entry.css HTTP/1.1" 200 -
+2019-12-25 13:49:54,881:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:49:54] "GET /static/assets/dist/vendors-major.69ff489520d9195bc4d7.chunk.js HTTP/1.1" 200 -
+2019-12-25 13:49:54,948:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:49:54] "GET /static/assets/dist/preamble.6f6ace8a79500a5317b0.entry.js HTTP/1.1" 200 -
+2019-12-25 13:49:54,965:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:49:54] "GET /static/assets/dist/vendors-addSlice-preamble-profile-welcome.ee6bfdfe230034c54561.chunk.js HTTP/1.1" 200 -
+2019-12-25 13:49:58,013:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:49:58] "POST /login/?next=http%3A%2F%2Fibm-node5%3A9000%2Fchart%2Fadd HTTP/1.1" 302 -
+2019-12-25 13:49:58,174:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:49:58] "GET / HTTP/1.1" 302 -
+2019-12-25 13:49:58,386:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:49:58] "GET /superset/welcome HTTP/1.1" 200 -
+2019-12-25 13:49:58,596:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:49:58] "GET /static/assets/dist/welcome.ea8f86b4ed46b4199df0.entry.css HTTP/1.1" 200 -
+2019-12-25 13:49:58,627:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:49:58] "GET /static/assets/dist/welcome.ea8f86b4ed46b4199df0.entry.js HTTP/1.1" 200 -
+2019-12-25 13:49:59,444:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:49:59] "GET /superset/fave_dashboards/1/ HTTP/1.1" 200 -
+2019-12-25 13:49:59,444:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:49:59] "GET /superset/fave_slices/1/ HTTP/1.1" 200 -
+2019-12-25 13:49:59,449:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:49:59] "GET /dashboardasync/api/read?_oc_DashboardModelViewAsync=changed_on&_od_DashboardModelViewAsync=desc HTTP/1.1" 200 -
+2019-12-25 13:49:59,453:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:49:59] "GET /superset/recent_activity/1/?limit=50 HTTP/1.1" 200 -
+2019-12-25 13:50:02,085:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:50:02] "GET /chart/list/ HTTP/1.1" 200 -
+2019-12-25 13:50:02,553:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:50:02] "GET /superset/csrf_token/ HTTP/1.1" 200 -
+2019-12-25 13:50:04,044:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:50:04] "GET /chart/add HTTP/1.1" 200 -
+2019-12-25 13:50:04,307:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:50:04] "GET /static/assets/dist/addSlice.0af84637b9dd48d26b44.entry.js HTTP/1.1" 200 -
+2019-12-25 13:56:37,463:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:56:37] "GET /chart/add HTTP/1.1" 200 -
+2019-12-25 13:56:38,619:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:56:38] "GET /static/assets/images/favicon.png HTTP/1.1" 200 -
+2019-12-25 13:58:12,312:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:58:12] "GET /chart/list/ HTTP/1.1" 200 -
+2019-12-25 13:58:13,263:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:58:13] "GET /superset/csrf_token/ HTTP/1.1" 200 -
+2019-12-25 13:58:14,339:INFO:werkzeug:127.0.0.1 - - [25/Dec/2019 13:58:14] "GET /chart/add HTTP/1.1" 200 -
+INFO:root:logging was configured successfully
+DEBUG:asyncio:Using selector: EpollSelector
+ * Serving Flask app "superset.app:create_app()" (lazy loading)
+ * Environment: development
+ * Debug mode: on
+INFO:werkzeug: * Running on http://127.0.0.1:18088/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:logging was configured successfully
+DEBUG:asyncio:Using selector: EpollSelector
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 231-017-753
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:15:40] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:15:41] "GET /superset/welcome HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:15:42] "GET /login/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:15:42] "GET /static/appbuilder/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:15:42] "GET /static/appbuilder/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:15:42] "GET /static/appbuilder/css/ab.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:15:42] "GET /static/appbuilder/datepicker/bootstrap-datepicker.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:15:42] "GET /static/appbuilder/css/flags/flags16.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:15:42] "GET /static/appbuilder/select2/select2.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:15:42] "GET /static/appbuilder/js/jquery-latest.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:15:42] "GET /static/appbuilder/js/ab_actions.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:15:42] "GET /static/appbuilder/js/ab_filters.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:15:42] "GET /static/appbuilder/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:15:43] "GET /static/assets/images/superset-logo@2x.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:15:43] "GET /static/appbuilder/datepicker/bootstrap-datepicker.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:15:43] "GET /static/appbuilder/select2/select2.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:15:43] "GET /static/appbuilder/js/ab.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:09] "GET /static/assets/dist/theme.f271e3c0.entry.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:09] "GET /static/assets/dist/vendors-addSlice-dashboard-explore-preamble-profile-showSavedQuery-sqllab-welcome.f271e3c0.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:09] "GET /static/assets/dist/vendors-major.f271e3c0.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:09] "GET /static/assets/dist/vendors-addSlice-dashboard-explore-preamble-profile-showSavedQuery-sqllab-theme-welcome.f271e3c0.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:10] "GET /static/assets/dist/preamble.f271e3c0.entry.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:10] "GET /static/assets/dist/theme.f271e3c0.entry.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:10] "GET /static/assets/dist/vendors-addSlice-dashboard-explore-preamble-profile-sqllab-welcome.f271e3c0.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:10] "GET /static/appbuilder/img/flags/flags16.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:10] "GET /static/assets/dist/vendors-major.f271e3c0.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:10] "GET /static/appbuilder/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:11] "GET /static/assets/dist/vendors-addSlice-dashboard-explore-preamble-profile-showSavedQuery-sqllab-welcome.f271e3c0.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:11] "GET /static/assets/dist/vendors-addSlice-dashboard-explore-preamble-profile-sqllab-welcome.f271e3c0.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:11] "GET /static/assets/dist/preamble.f271e3c0.entry.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:12] "GET /static/assets/images/favicon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:25] "POST /login/ HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:25] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:25] "GET /superset/welcome HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:25] "GET /static/assets/dist/vendors-addSlice-dashboard-explore-preamble-profile-showSavedQuery-sqllab-theme-welcome.f271e3c0.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:25] "GET /static/assets/dist/theme.f271e3c0.entry.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:25] "GET /static/assets/dist/vendors-major.f271e3c0.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:26] "GET /static/assets/images/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:26] "GET /static/assets/dist/vendors-addSlice-dashboard-explore-preamble-profile-showSavedQuery-sqllab-welcome.f271e3c0.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:26] "GET /static/assets/dist/vendors-addSlice-dashboard-explore-profile-showSavedQuery-sqllab-welcome.f271e3c0.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:26] "GET /static/assets/dist/vendors-addSlice-dashboard-explore-preamble-profile-sqllab-welcome.f271e3c0.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:26] "GET /static/assets/dist/5.f271e3c0.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:26] "GET /static/assets/dist/vendors-addSlice-dashboard-explore-profile-sqllab-welcome.f271e3c0.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:26] "GET /static/assets/dist/6.f271e3c0.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:26] "GET /static/assets/dist/vendors-dashboard-explore-sqllab-welcome.f271e3c0.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:26] "GET /static/assets/dist/welcome.f271e3c0.entry.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:26] "GET /static/assets/dist/6.f271e3c0.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:26] "GET /static/assets/dist/vendors-dashboard-explore-sqllab-welcome.f271e3c0.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:16:26] "GET /static/assets/dist/welcome.f271e3c0.entry.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:40] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:41] "GET /superset/welcome HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:41] "GET /login/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:41] "GET /static/appbuilder/datepicker/bootstrap-datepicker.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:41] "GET /static/appbuilder/css/flags/flags16.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:41] "GET /static/appbuilder/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:41] "GET /static/appbuilder/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:41] "GET /static/appbuilder/select2/select2.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:41] "GET /static/appbuilder/css/ab.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:41] "GET /static/appbuilder/js/jquery-latest.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:41] "GET /static/appbuilder/js/ab_filters.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:41] "GET /static/appbuilder/js/ab_actions.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:41] "GET /static/assets/dist/vendors-addSlice-dashboard-explore-preamble-profile-showSavedQuery-sqllab-theme-welcome.a2560a95.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:41] "GET /static/assets/dist/theme.a2560a95.entry.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:41] "GET /static/appbuilder/js/ab.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:41] "GET /static/assets/dist/vendors-addSlice-dashboard-explore-preamble-profile-showSavedQuery-sqllab-welcome.a2560a95.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:41] "GET /static/assets/dist/vendors-major.a2560a95.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:41] "GET /static/assets/dist/vendors-addSlice-dashboard-explore-preamble-profile-sqllab-welcome.a2560a95.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:41] "GET /static/assets/dist/preamble.a2560a95.entry.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:41] "GET /static/appbuilder/datepicker/bootstrap-datepicker.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:41] "GET /static/appbuilder/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:41] "GET /static/appbuilder/select2/select2.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:42] "GET /static/assets/dist/vendors-addSlice-dashboard-explore-preamble-profile-showSavedQuery-sqllab-theme-welcome.a2560a95.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:42] "GET /static/assets/dist/theme.a2560a95.entry.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:42] "GET /static/assets/dist/vendors-major.a2560a95.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:42] "GET /static/assets/images/superset-logo@2x.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:42] "GET /static/appbuilder/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:42] "GET /static/assets/dist/vendors-addSlice-dashboard-explore-preamble-profile-showSavedQuery-sqllab-welcome.a2560a95.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:43] "GET /static/assets/dist/vendors-addSlice-dashboard-explore-preamble-profile-sqllab-welcome.a2560a95.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:43] "GET /static/appbuilder/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:43] "GET /static/assets/dist/preamble.a2560a95.entry.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:43] "GET /static/assets/images/favicon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:59] "POST /login/ HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:59] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:34:59] "GET /superset/welcome HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:35:00] "GET /static/assets/dist/vendors-addSlice-dashboard-explore-preamble-profile-showSavedQuery-sqllab-theme-welcome.a2560a95.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:35:00] "GET /static/assets/dist/theme.a2560a95.entry.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:35:00] "GET /static/assets/dist/vendors-addSlice-dashboard-explore-preamble-profile-showSavedQuery-sqllab-welcome.a2560a95.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:35:00] "GET /static/assets/dist/6.a2560a95.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:35:00] "GET /static/assets/dist/vendors-dashboard-explore-sqllab-welcome.a2560a95.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:35:00] "GET /static/assets/dist/vendors-addSlice-dashboard-explore-profile-showSavedQuery-sqllab-welcome.a2560a95.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:35:00] "GET /static/assets/dist/vendors-addSlice-dashboard-explore-preamble-profile-sqllab-welcome.a2560a95.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:35:00] "GET /static/assets/dist/5.a2560a95.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:35:00] "GET /static/assets/dist/vendors-addSlice-dashboard-explore-profile-sqllab-welcome.a2560a95.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:35:00] "GET /static/assets/dist/welcome.a2560a95.entry.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:35:00] "GET /static/assets/dist/vendors-major.a2560a95.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:35:00] "GET /static/assets/images/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:35:00] "GET /static/assets/dist/vendors-addSlice-dashboard-explore-preamble-profile-showSavedQuery-sqllab-welcome.a2560a95.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:35:01] "GET /static/assets/dist/vendors-addSlice-dashboard-explore-preamble-profile-sqllab-welcome.a2560a95.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:35:01] "GET /static/assets/dist/vendors-addSlice-dashboard-explore-profile-showSavedQuery-sqllab-welcome.a2560a95.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:35:01] "GET /static/assets/dist/5.a2560a95.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:35:01] "GET /static/assets/dist/vendors-addSlice-dashboard-explore-profile-sqllab-welcome.a2560a95.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:35:01] "GET /static/assets/dist/6.a2560a95.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:35:02] "GET /static/assets/dist/vendors-dashboard-explore-sqllab-welcome.a2560a95.chunk.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:35:02] "GET /static/assets/dist/welcome.a2560a95.entry.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:35:20] "GET /login/ HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 16:35:20] "GET /superset/welcome HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2020 20:20:03] "GET / HTTP/1.1" 302 -
+2020-01-27 17:42:20,562:INFO:root:logging was configured successfully
+2020-01-27 17:42:20,716:INFO:root:Configured event logger of type <class 'superset.utils.log.DBEventLogger'>
+ * Serving Flask app "superset.app:create_app()" (lazy loading)
+ * Environment: development
+ * Debug mode: on
+2020-01-27 17:42:22,669:INFO:werkzeug: * Running on http://127.0.0.1:18088/ (Press CTRL+C to quit)
+2020-01-27 17:42:22,670:INFO:werkzeug: * Restarting with stat
+2020-01-27 17:42:23,789:INFO:root:logging was configured successfully
+2020-01-27 17:42:23,940:INFO:root:Configured event logger of type <class 'superset.utils.log.DBEventLogger'>
+2020-01-27 17:42:25,105:WARNING:werkzeug: * Debugger is active!
+2020-01-27 17:42:25,105:INFO:werkzeug: * Debugger PIN: 263-378-670
+INFO:root:logging was configured successfully
+ * Serving Flask app "superset.app:create_app()" (lazy loading)
+ * Environment: development
+ * Debug mode: on
+/storj-storage/src/incubator-superset-community/venv-com/lib/python3.6/site-packages/flask_caching/__init__.py:189: UserWarning: Flask-Caching: CACHE_TYPE is set to null, caching is effectively disabled.
+  "Flask-Caching: CACHE_TYPE is set to null, "
+Traceback (most recent call last):
+  File "/storj-storage/src/incubator-superset-community/venv-com/bin/superset", line 7, in <module>
+    exec(compile(f.read(), __file__, 'exec'))
+  File "/storj-storage/src/incubator-superset-community/superset/bin/superset", line 21, in <module>
+    superset()
+  File "/storj-storage/src/incubator-superset-community/venv-com/lib/python3.6/site-packages/click/core.py", line 722, in __call__
+    return self.main(*args, **kwargs)
+  File "/storj-storage/src/incubator-superset-community/venv-com/lib/python3.6/site-packages/flask/cli.py", line 586, in main
+    return super(FlaskGroup, self).main(*args, **kwargs)
+  File "/storj-storage/src/incubator-superset-community/venv-com/lib/python3.6/site-packages/click/core.py", line 697, in main
+    rv = self.invoke(ctx)
+  File "/storj-storage/src/incubator-superset-community/venv-com/lib/python3.6/site-packages/click/core.py", line 1066, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/storj-storage/src/incubator-superset-community/venv-com/lib/python3.6/site-packages/click/core.py", line 895, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/storj-storage/src/incubator-superset-community/venv-com/lib/python3.6/site-packages/click/core.py", line 535, in invoke
+    return callback(*args, **kwargs)
+  File "/storj-storage/src/incubator-superset-community/venv-com/lib/python3.6/site-packages/click/decorators.py", line 64, in new_func
+    return ctx.invoke(f, obj, *args[1:], **kwargs)
+  File "/storj-storage/src/incubator-superset-community/venv-com/lib/python3.6/site-packages/click/core.py", line 535, in invoke
+    return callback(*args, **kwargs)
+  File "/storj-storage/src/incubator-superset-community/venv-com/lib/python3.6/site-packages/flask/cli.py", line 860, in run_command
+    extra_files=extra_files,
+  File "/storj-storage/src/incubator-superset-community/venv-com/lib/python3.6/site-packages/werkzeug/serving.py", line 988, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use
+2020-01-27 18:00:35,956:INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:00:35] "GET / HTTP/1.1" 302 -
+2020-01-27 18:00:36,432:INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:00:36] "GET /superset/welcome HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/flask/app.py", line 2463, in __call__
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/flask/app.py", line 2449, in wsgi_app
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/flask/app.py", line 1866, in handle_exception
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/superset/views/core.py", line 2908, in welcome
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/superset/views/base.py", line 174, in common_bootstrap_payload
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/flask_babel/__init__.py", line 261, in get_locale
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/babel/core.py", line 288, in parse
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/babel/core.py", line 273, in _try_load
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/babel/core.py", line 167, in __init__
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/babel/localedata.py", line 53, in exists
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/babel/localedata.py", line 36, in normalize_locale
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/babel/localedata.py", line 74, in locale_identifiers
+    
+FileNotFoundError: [Errno 2] No such file or directory: '/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/babel/locale-data'
+2020-01-27 18:00:36,601:INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:00:36] "GET /superset/welcome?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 404 -
+2020-01-27 18:00:36,730:INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:00:36] "GET /superset/welcome?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 404 -
+2020-01-27 18:00:36,731:INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:00:36] "GET /superset/welcome?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 404 -
+2020-01-27 18:00:37,081:INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:00:37] "GET /superset/welcome?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 404 -
+2020-01-27 18:00:37,636:INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:00:37] "GET /superset/welcome?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 404 -
+2020-01-27 18:01:40,159:INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:01:40] "GET /superset/welcome HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/flask/app.py", line 2463, in __call__
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/flask/app.py", line 2449, in wsgi_app
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/flask/app.py", line 1866, in handle_exception
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/superset/views/core.py", line 2908, in welcome
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/superset/views/base.py", line 174, in common_bootstrap_payload
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/flask_babel/__init__.py", line 261, in get_locale
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/babel/core.py", line 288, in parse
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/babel/core.py", line 273, in _try_load
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/babel/core.py", line 167, in __init__
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/babel/localedata.py", line 53, in exists
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/babel/localedata.py", line 36, in normalize_locale
+    
+  File "/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/babel/localedata.py", line 74, in locale_identifiers
+    
+FileNotFoundError: [Errno 2] No such file or directory: '/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/babel/locale-data'
+2020-01-27 18:01:40,705:INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:01:40] "GET /superset/welcome?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 404 -
+2020-01-27 18:01:40,825:INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:01:40] "GET /superset/welcome?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 404 -
+2020-01-27 18:01:40,831:INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:01:40] "GET /superset/welcome?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 404 -
+2020-01-27 18:02:52,065:INFO:werkzeug: * Detected change in '/storj-storage/src/incubator-superset-community/venv/bin/superset', reloading
+2020-01-27 18:02:52,339:INFO:werkzeug: * Restarting with stat
+INFO:root:logging was configured successfully
+/storj-storage/src/incubator-superset-community/venv/lib/python3.6/site-packages/flask_caching/__init__.py:189: UserWarning: Flask-Caching: CACHE_TYPE is set to null, caching is effectively disabled.
+  "Flask-Caching: CACHE_TYPE is set to null, "
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 263-378-670
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:02:57] "GET /superset/welcome HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:02:57] "GET /static/appbuilder/css/flags/flags16.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:02:57] "GET /static/appbuilder/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:02:57] "GET /static/assets/images/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:03:06] "GET /static/assets/images/superset-logo@2x.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:03:06] "GET /superset/recent_activity/1/?limit=50 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:03:06] "GET /superset/fave_dashboards/1/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:03:06] "GET /superset/fave_slices/1/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:03:06] "GET /static/appbuilder/img/flags/flags16.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:03:06] "GET /api/v1/dashboard/?q={%22order_column%22:%22changed_on%22,%22order_direction%22:%22desc%22,%22page%22:0,%22page_size%22:25} HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:03:06] "GET /static/appbuilder/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:03:07] "GET /static/assets/images/favicon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:03:31] "GET /dashboard/list/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:03:34] "GET /api/v1/dashboard/_info HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:03:34] "GET /api/v1/dashboard/?q={%22order_column%22:%22changed_on%22,%22order_direction%22:%22desc%22,%22page%22:0,%22page_size%22:25} HTTP/1.1" 200 -
+DEBUG:root:[36m[stats_logger] (incr) dashboard[0m
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:03:42] "GET /superset/dashboard/world_health/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:03:51] "GET /superset/favstar/Dashboard/1/count/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:03:51] "GET /csstemplateasyncmodelview/api/read HTTP/1.1" 200 -
+DEBUG:root:[36m[stats_logger] (incr) explore_json[0m
+DEBUG:root:[36m[stats_logger] (incr) explore_json[0m
+DEBUG:parsedatetime:eval - with context - False, False
+INFO:root:Cache key: 353fd9825a8f1081976b9eeae6fbe3fe
+DEBUG:parsedatetime:eval - with context - False, False
+INFO:root:Cache key: da44215d49d34fa8fde24ec0d93988ac
+DEBUG:root:[36m[stats_logger] (incr) explore_json[0m
+DEBUG:root:[36m[stats_logger] (incr) explore_json[0m
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+INFO:root:SELECT region AS region, sum("SP_POP_TOTL") AS "sum__SP_POP_TOTL" 
+FROM wb_health_population 
+WHERE year >= '2014-01-01 00:00:00.000000' AND year <= '2014-01-02 00:00:00.000000' GROUP BY region ORDER BY "sum__SP_POP_TOTL" DESC
+ LIMIT 1000 OFFSET 0
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+DEBUG:root:[36m[stats_logger] (incr) explore_json[0m
+DEBUG:root:[36m[stats_logger] (incr) explore_json[0m
+DEBUG:parsedatetime:eval - with context - False, False
+INFO:root:Cache key: 344a57851d0ace627d9dcb850ba699d9
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+INFO:root:SELECT DATE(year) AS __timestamp, sum("SP_POP_TOTL") AS "sum__SP_POP_TOTL" 
+FROM wb_health_population 
+WHERE year >= '2000-01-27 00:00:00.000000' AND year <= '2014-01-02 00:00:00.000000' GROUP BY DATE(year) ORDER BY "sum__SP_POP_TOTL" DESC
+ LIMIT 50000 OFFSET 0
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+DEBUG:parsedatetime:eval - with context - False, False
+INFO:root:Cache key: 0af21375153fd555242cc58d6574d262
+DEBUG:root:[36m[stats_logger] (incr) loaded_from_source[0m
+INFO:root:Caching 1320 chars at key 353fd9825a8f1081976b9eeae6fbe3fe
+DEBUG:root:[36m[stats_logger] (incr) set_cache_key[0m
+INFO:root:Cache key: f9d5c2e58e133aba98ede62ea39ebc21
+INFO:root:SELECT country_name AS country_name, sum("SP_POP_TOTL") AS "sum__SP_POP_TOTL" 
+FROM wb_health_population 
+WHERE year >= '2014-01-01 00:00:00.000000' AND year <= '2014-01-02 00:00:00.000000' GROUP BY country_name ORDER BY "sum__SP_POP_TOTL" DESC
+ LIMIT 1000 OFFSET 0
+DEBUG:parsedatetime:eval - with context - False, False
+INFO:root:Cache key: 9ca97a16bdb5f53d2069f8b4baefb24c
+DEBUG:parsedatetime:eval - with context - False, False
+INFO:root:Cache key: 0cb6ecd83c9c20aaebd94b181f773ce7
+DEBUG:root:[36m[stats_logger] (incr) loaded_from_source[0m
+INFO:root:Caching 5557 chars at key f9d5c2e58e133aba98ede62ea39ebc21
+DEBUG:root:[36m[stats_logger] (incr) set_cache_key[0m
+INFO:root:Cache key: None
+DEBUG:root:[36m[stats_logger] (incr) loaded_from_source[0m
+INFO:root:Caching 1410 chars at key da44215d49d34fa8fde24ec0d93988ac
+DEBUG:root:[36m[stats_logger] (incr) set_cache_key[0m
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+INFO:root:SELECT country_code AS country_code, sum("SP_RUR_TOTL_ZS") AS "sum__SP_RUR_TOTL_ZS", sum("SP_RUR_TOTL") AS "Rural Population" 
+FROM wb_health_population 
+WHERE year >= '2014-01-01 00:00:00.000000' AND year <= '2014-01-02 00:00:00.000000' GROUP BY country_code ORDER BY "sum__SP_RUR_TOTL_ZS" DESC
+ LIMIT 50000 OFFSET 0
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:03:52] "POST /superset/explore_json/?form_data=%7B%22slice_id%22%3A45%7D HTTP/1.1" 200 -
+INFO:root:SELECT country_name AS country_name, DATE(year) AS __timestamp, sum("SP_POP_TOTL") AS "sum__SP_POP_TOTL" 
+FROM wb_health_population JOIN (SELECT country_name AS country_name__, sum("SP_POP_TOTL") AS mme_inner__ 
+FROM wb_health_population 
+WHERE year >= '1960-01-01 00:00:00.000000' AND year <= '2014-01-02 00:00:00.000000' GROUP BY country_name ORDER BY mme_inner__ DESC
+ LIMIT 25 OFFSET 0) AS anon_1 ON country_name = country_name__ 
+WHERE year >= '1960-01-01 00:00:00.000000' AND year <= '2014-01-02 00:00:00.000000' GROUP BY country_name, DATE(year) ORDER BY "sum__SP_POP_TOTL" DESC
+ LIMIT 50000 OFFSET 0
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+INFO:root:SELECT country_name AS country_name, region AS region, sum("SP_POP_TOTL") AS "sum__SP_POP_TOTL", sum("SP_RUR_TOTL") AS "Rural Population" 
+FROM wb_health_population 
+WHERE year >= '2011-01-01 00:00:00.000000' AND year <= '2011-01-01 00:00:00.000000' GROUP BY country_name, region ORDER BY "sum__SP_POP_TOTL" DESC
+ LIMIT 50000 OFFSET 0
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+INFO:root:SELECT country_name AS country_name, sum("SP_POP_TOTL") AS "sum__SP_POP_TOTL" 
+FROM wb_health_population 
+WHERE year >= '2014-01-01 00:00:00.000000' AND year <= '2014-01-02 00:00:00.000000' GROUP BY country_name ORDER BY "sum__SP_POP_TOTL" DESC
+ LIMIT 50000 OFFSET 0
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:03:53] "POST /superset/explore_json/?form_data=%7B%22slice_id%22%3A46%7D HTTP/1.1" 200 -
+DEBUG:root:[36m[stats_logger] (incr) loaded_from_source[0m
+INFO:root:Caching 5942 chars at key 0af21375153fd555242cc58d6574d262
+DEBUG:root:[36m[stats_logger] (incr) set_cache_key[0m
+DEBUG:root:[36m[stats_logger] (incr) loaded_from_source[0m
+INFO:root:Caching 12472 chars at key 0cb6ecd83c9c20aaebd94b181f773ce7
+DEBUG:root:[36m[stats_logger] (incr) set_cache_key[0m
+DEBUG:root:[36m[stats_logger] (incr) loaded_from_source[0m
+INFO:root:Caching 5558 chars at key 9ca97a16bdb5f53d2069f8b4baefb24c
+DEBUG:root:[36m[stats_logger] (incr) set_cache_key[0m
+DEBUG:root:[36m[stats_logger] (incr) loaded_from_source[0m
+INFO:root:Caching 40122 chars at key 344a57851d0ace627d9dcb850ba699d9
+DEBUG:root:[36m[stats_logger] (incr) set_cache_key[0m
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:03:53] "POST /superset/explore_json/?form_data=%7B%22slice_id%22%3A51%7D HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:03:53] "POST /superset/explore_json/?form_data=%7B%22slice_id%22%3A47%7D HTTP/1.1" 200 -
+DEBUG:root:[36m[stats_logger] (incr) explore_json[0m
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:03:53] "POST /superset/explore_json/?form_data=%7B%22slice_id%22%3A49%7D HTTP/1.1" 200 -
+DEBUG:parsedatetime:eval now with context - False, False
+DEBUG:parsedatetime:eval - with context - False, False
+INFO:root:Cache key: 11d5f04b034322944f770644c86cad94
+DEBUG:root:[36m[stats_logger] (incr) explore_json[0m
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+INFO:root:SELECT region AS region, DATE(year) AS __timestamp, sum("SP_POP_TOTL") AS "sum__SP_POP_TOTL" 
+FROM wb_health_population JOIN (SELECT region AS region__, sum("SP_POP_TOTL") AS mme_inner__ 
+FROM wb_health_population 
+WHERE year >= '1960-01-01 00:00:00.000000' AND year <= '2020-01-27 18:03:53.000000' GROUP BY region ORDER BY mme_inner__ DESC
+ LIMIT 25 OFFSET 0) AS anon_1 ON region = region__ 
+WHERE year >= '1960-01-01 00:00:00.000000' AND year <= '2020-01-27 18:03:53.000000' GROUP BY region, DATE(year) ORDER BY "sum__SP_POP_TOTL" DESC
+ LIMIT 50000 OFFSET 0
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+DEBUG:root:[36m[stats_logger] (incr) explore_json[0m
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:03:53] "POST /superset/explore_json/?form_data=%7B%22slice_id%22%3A48%7D HTTP/1.1" 200 -
+DEBUG:root:[36m[stats_logger] (incr) explore_json[0m
+DEBUG:parsedatetime:eval - with context - False, False
+DEBUG:parsedatetime:eval now with context - False, False
+INFO:root:Cache key: f47ffef2fdfa5423c2feee65489b9067
+DEBUG:parsedatetime:eval - with context - False, False
+INFO:root:Cache key: c6926db7e68a540373abaa0b9725d32c
+DEBUG:parsedatetime:eval now with context - False, False
+DEBUG:parsedatetime:eval - with context - False, False
+INFO:root:Cache key: 1ad6a3449fd784e5a3ba70e7e8473be6
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+INFO:root:SELECT region AS region, year AS __timestamp, sum("SP_POP_TOTL") AS "sum__SP_POP_TOTL" 
+FROM wb_health_population JOIN (SELECT region AS region__, sum("SP_POP_TOTL") AS mme_inner__ 
+FROM wb_health_population 
+WHERE year >= '1960-01-01 00:00:00.000000' AND year <= '2020-01-27 18:03:53.000000' GROUP BY region ORDER BY mme_inner__ DESC
+ LIMIT 25 OFFSET 0) AS anon_1 ON region = region__ 
+WHERE year >= '1960-01-01 00:00:00.000000' AND year <= '2020-01-27 18:03:53.000000' GROUP BY region, year ORDER BY "sum__SP_POP_TOTL" DESC
+ LIMIT 50000 OFFSET 0
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+DEBUG:root:[36m[stats_logger] (incr) log[0m
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+INFO:root:SELECT country_code AS country_code, region AS region, sum("SP_POP_TOTL") AS "sum__SP_POP_TOTL" 
+FROM wb_health_population 
+WHERE year >= '1960-01-01 00:00:00.000000' AND year <= '2020-01-27 18:03:53.000000' GROUP BY country_code, region ORDER BY "sum__SP_POP_TOTL" DESC
+ LIMIT 50000 OFFSET 0
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+DEBUG:root:[36m[stats_logger] (incr) loaded_from_source[0m
+INFO:root:Caching 16251 chars at key 11d5f04b034322944f770644c86cad94
+DEBUG:root:[36m[stats_logger] (incr) set_cache_key[0m
+DEBUG:root:[36m[stats_logger] (incr) loaded_from_source[0m
+INFO:root:Caching 16247 chars at key c6926db7e68a540373abaa0b9725d32c
+DEBUG:root:[36m[stats_logger] (incr) set_cache_key[0m
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:03:53] "POST /superset/log/?explode=events&dashboard_id=1 HTTP/1.1" 200 -
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+INFO:root:SELECT country_name AS country_name, region AS region, sum("SP_POP_TOTL") AS "sum__SP_POP_TOTL", sum("SP_RUR_TOTL_ZS") AS "sum__SP_RUR_TOTL_ZS", sum("SP_DYN_LE00_IN") AS "sum__SP_DYN_LE00_IN" 
+FROM wb_health_population 
+WHERE year >= '2011-01-01 00:00:00.000000' AND year <= '2011-01-02 00:00:00.000000' AND country_code NOT IN ('TCA', 'MNP', 'DMA', 'MHL', 'MCO', 'SXM', 'CYM', 'TUV', 'IMY', 'KNA', 'ASM', 'ADO', 'AMA', 'PLW') GROUP BY country_name, region ORDER BY "sum__SP_POP_TOTL" DESC
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+DEBUG:root:[36m[stats_logger] (incr) loaded_from_source[0m
+INFO:root:Caching 9278 chars at key 1ad6a3449fd784e5a3ba70e7e8473be6
+DEBUG:root:[36m[stats_logger] (incr) set_cache_key[0m
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:03:53] "POST /superset/explore_json/?form_data=%7B%22slice_id%22%3A52%7D HTTP/1.1" 200 -
+DEBUG:root:[36m[stats_logger] (incr) loaded_from_source[0m
+INFO:root:Caching 13875 chars at key f47ffef2fdfa5423c2feee65489b9067
+DEBUG:root:[36m[stats_logger] (incr) set_cache_key[0m
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:03:53] "POST /superset/explore_json/?form_data=%7B%22slice_id%22%3A54%7D HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:03:53] "POST /superset/explore_json/?form_data=%7B%22slice_id%22%3A53%7D HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:03:53] "POST /superset/explore_json/?form_data=%7B%22slice_id%22%3A50%7D HTTP/1.1" 200 -
+DEBUG:root:[36m[stats_logger] (incr) log[0m
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:03:58] "POST /superset/log/?explode=events&dashboard_id=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 18:14:45] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 20:38:25] "GET /static/assets/dist/45c6abc8448cb9743ef3.hot-update.json HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 20:38:25] "GET /static/assets/dist/45c6abc8448cb9743ef3.hot-update.json HTTP/1.1" 404 -
+DEBUG:root:[36m[stats_logger] (incr) dashboard[0m
+DEBUG:root:[36m[stats_logger] (incr) dashboard[0m
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 20:38:26] "GET /superset/dashboard/world_health/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 20:38:26] "GET /superset/dashboard/world_health/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 20:38:46] "GET /superset/favstar/Dashboard/1/count/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 20:38:46] "GET /csstemplateasyncmodelview/api/read HTTP/1.1" 200 -
+DEBUG:root:[36m[stats_logger] (incr) log[0m
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 20:38:48] "POST /superset/log/?explode=events&dashboard_id=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 20:40:46] "GET /static/assets/dist/75bbdc46cdcc3d322dde.hot-update.json HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 20:40:46] "GET /static/assets/dist/75bbdc46cdcc3d322dde.hot-update.json HTTP/1.1" 404 -
+DEBUG:root:[36m[stats_logger] (incr) dashboard[0m
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 20:40:46] "GET /superset/dashboard/world_health/ HTTP/1.1" 200 -
+DEBUG:root:[36m[stats_logger] (incr) dashboard[0m
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+INFO:root:Database.get_sqla_engine(). Masked URL: sqlite:////root/.superset/superset-community.db
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 20:40:47] "GET /superset/dashboard/world_health/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 20:41:06] "GET /csstemplateasyncmodelview/api/read HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 20:41:06] "GET /superset/favstar/Dashboard/1/count/ HTTP/1.1" 200 -
+DEBUG:root:[36m[stats_logger] (incr) log[0m
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2020 20:41:07] "POST /superset/log/?explode=events&dashboard_id=1 HTTP/1.1" 200 -
