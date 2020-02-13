@@ -32,6 +32,7 @@ import {
 } from '../../../logger/LogUtils';
 import { isFilterBox } from '../../util/activeDashboardFilters';
 import getFilterValuesByFilterId from '../../util/getFilterValuesByFilterId';
+import { CHANGE_FILTER } from '../../../dashboard/actions/dashboardFilters';
 
 const propTypes = {
   id: PropTypes.number.isRequired,
@@ -173,6 +174,9 @@ class Chart extends React.Component {
       id: this.props.chart.id,
       columns: Object.keys(newSelectedValues),
     });
+
+    console.log('checking state....' );
+    console.dir(window.filterBoxRef.store.getState());
     this.props.changeFilter(this.props.chart.id, newSelectedValues);
   }
 
@@ -312,6 +316,7 @@ class Chart extends React.Component {
             timeout={timeout}
             triggerQuery={chart.triggerQuery}
             vizType={slice.viz_type}
+            ref={slice.viz_type === 'filter_box' ? (ourComponent) => {window.filterBoxRef = ourComponent} : null}
           />
         </div>
       </div>

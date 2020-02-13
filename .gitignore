@@ -81,3 +81,5 @@ apache-superset-*.tar.gz*
 
 # Translation binaries
 messages.mo
+
+nohup.out

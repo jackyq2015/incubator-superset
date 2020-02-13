@@ -164,7 +164,8 @@ export default function dashboardFiltersReducer(dashboardFilters = {}, action) {
     const updatedFilters = {
       ...dashboardFilters,
       [action.chartId]: actionHandlers[action.type](
-        dashboardFilters[action.chartId],
+        // dashboardFilters[action.chartId],
+        dashboardFilters[window.filterBoxRef.props.chartId],
       ),
     };
 
